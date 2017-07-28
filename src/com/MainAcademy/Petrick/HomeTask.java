@@ -136,7 +136,7 @@ public class Solution {
         3. В программу нельзя добавлять новые строки или удалять имеющиеся.
         4. Выведенный текст должен соответствовать заданию.
 */
-
+/*
 public class HomeTask {
 
     public static void main(String[] args) {
@@ -151,5 +151,38 @@ public class HomeTask {
         System.out.println("summa = " + summa);
     }
 }
-
+*/
 //---------------------------------------------------------------------------------
+/*
+Домашнее задание №5
+студента Петрик Андрея petrickandrew@gmail.com
+по курсу "Атоматизированного тестирования" Main Academy
+проверяющий Генадий Мирошниченко.
+
+Задание:
+Объявить недостающие переменные и закомментировать те, которые нигде не
+используются.
+public class Solution {
+       public static void main(String[] args) {
+                                         String s = "15";
+                                         a = 5;
+                                         int z = 18;
+                                         int d = 18;
+                                         c = a + d;
+                                         b = " better then ";
+                                         System.out.println(a + b + c);
+                                              }
+                      }
+*/
+public class HomeTask {
+
+    public static void main(String[] args) {
+                                            //String s = "15";
+                                            int a = 5;
+                                            //int z = 18;
+                                            int d = 18;
+                                            int c = a + d;
+                                            String b = " better then ";
+                                            System.out.println(a + b + c);
+    }
+}
